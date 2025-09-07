@@ -4,7 +4,7 @@
 
 //Struct para os carros
 struct Tcarro{
-  char modelo[30] ;
+  char modelo[30] ;     //Comentario ilustrativo
   char placa[30] ;
   char cor[30];
 };
@@ -207,3 +207,4 @@ int fun_decre (int *fila){
   printf ("Número de carros na fila: %d\n", *fila);
  return *fila;
  }
+
