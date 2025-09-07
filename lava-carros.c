@@ -19,7 +19,7 @@ int fun_escreva();
 char Fun_Tcar();
 
 //MAIN
-int main (void) {
+int main (void) {  //Autor: Melhor organização da função Main
 
   //VARIÁVEIS
 	float  prEta = 1, prGas = 1, prAdit = 1, qtdEta, qtdGas, qtdAdit, valRec, cAtendido, tFila = 1;
@@ -207,3 +207,4 @@ int fun_decre (int *fila){
   printf ("Número de carros na fila: %d\n", *fila);
  return *fila;
  }
+
