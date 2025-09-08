@@ -18,8 +18,8 @@ int fun_invalidos (float prEta, float prGas, float prAdit, float tFila);
 int fun_escreva();
 char Fun_Tcar();
 
-//MAIN
-int main (void) {  //Autor: Melhor organização da função Main
+// === FUNÇÃO PRINCIPAL === //
+int main (void) {  
 
   //VARIÁVEIS
 	float  prEta = 1, prGas = 1, prAdit = 1, qtdEta, qtdGas, qtdAdit, valRec, cAtendido, tFila = 1;
@@ -207,4 +207,5 @@ int fun_decre (int *fila){
   printf ("Número de carros na fila: %d\n", *fila);
  return *fila;
  }
+
 
